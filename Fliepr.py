@@ -24,31 +24,31 @@ def Win_File_Processing(path,oldname,filename,collection):
         EN_US:  
                 Accept four parameters (address, old filename, composite filename, collection name), and perform synthesis based on these parameters.
     '''
-    out_PATH = '.\\win_bilibili\\'
+    out_PATH            = '.\\win_bilibili\\'
 
     if not collection:
         os.makedirs(out_PATH,exist_ok=True)
     else:
-        out_PATH = out_PATH+collection
+        out_PATH        = out_PATH+collection
         os.makedirs(out_PATH,exist_ok=True)
-        out_PATH =out_PATH+'\\'
+        out_PATH        =out_PATH+'\\'
 
     if os.path.exists(out_PATH+filename+'.MP4'):
         return 1
     else:
         with open(out_PATH+'win_temp.log', 'a') as f:
             f.write(language[i][0] + path )
-        oldnamev = str(oldname[0])
-        oldnamem = str(oldname[1])
+        oldnamev        = str(oldname[0])
+        oldnamem        = str(oldname[1])
 
     if os.path.exists(path+'\\'+oldnamev) and os.path.exists(path+'\\'+oldnamem):
         subprocess.check_output(['ffmpeg', '-i', path+'\\'+oldnamev, '-i', path+'\\'+oldnamem, '-codec', 'copy', out_PATH+filename+'.MP4'])
         print(language[i][1])
     else: 
         if not oldnamev :
-            temp_file = oldnamev
+            temp_file   = oldnamev
         else:
-            temp_file =oldnamem
+            temp_file   = oldnamem
         subprocess.check_output(['ffmpeg', '-i', path+'\\'+temp_file, '-codec', 'copy', out_PATH+filename+'.MP4'])
         print(language[i][2])
         print("OK")
@@ -61,13 +61,13 @@ def P_File_Processing(path,filename,collection):
         EN_US:  
                 Accept three parameters (address, composite filename, collection name), and then perform synthesis.
     '''
-    out_PATH = '.\\D_bilibili\\'
+    out_PATH            = '.\\D_bilibili\\'
     if not collection:
         os.makedirs(out_PATH,exist_ok=True)
     else:
-        out_PATH=out_PATH+collection
+        out_PATH        = out_PATH+collection
         os.makedirs(out_PATH,exist_ok=True)
-        out_PATH=out_PATH+'\\'
+        out_PATH        = out_PATH+'\\'
 
     if os.path.exists(out_PATH+filename+'.MP4'):
        return 1
