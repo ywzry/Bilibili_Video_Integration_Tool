@@ -2,7 +2,9 @@
 
 这是一个简单的视频处理工具，它采用`ffmpeg`对`哔哩哔哩`应用程序下载的视频文件和音频文件进行合并处理，在运行前请确保你已经安装并配置好`ffmpeg`与`python`环境
 
-## 语言:【[EN](README.md "English")】【[ZH](README_zh.md "中文")】
+## 语言:【[EN](README_EN.md "English")】【[ZH](README.md "中文")】
+
+
 
 ## 系统环境说明
 
