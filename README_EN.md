@@ -2,7 +2,7 @@
 
 This is a simple video processing tool that uses `ffmpeg` to merge video and audio files downloaded from the `bilibili` app. Please make sure you have installed and configured the `ffmpeg` and `python` environments before running.
 
-## language ：【[EN](README.md "English")】【[ZH](README_zh.md "中文")】
+## language ：【[EN](README_EN.md "English")】【[ZH](README.md "中文")】
 
 ## System environment description
 
