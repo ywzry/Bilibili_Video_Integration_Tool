@@ -24,7 +24,7 @@
 
 ```shell
 
-PS E:\python\PY_Bilibili_video_merge> & "D:/Program Files/conda3/envs/bli/python.exe" e:/python/PY_Bilibili_video_merge/run.py
+PS E:\python\PY_Bilibili_video_merge> python run.py
 请输入你的bilibili下载目录:     E:\视频下载\bilibili
 (执行指令中.....)
 执行完成！
