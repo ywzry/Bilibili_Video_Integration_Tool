@@ -34,4 +34,4 @@ Execution complete!
 
 After execution, there should be a folder named `D_bilibili` or `win_bilibili` in the directory where you currently run the script.
 
-![Alt text](image.png)
+![Sample image](image.png)
