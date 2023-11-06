@@ -34,4 +34,4 @@ PS E:\python\PY_Bilibili_video_merge> python run.py
 ```
 
 执行完之后，你当前执行脚本的目录就应该有一个`D_bilibili`或者`win_bilibili`的文件夹。
-![示例图像](.\image.png)
+![示例图像](image.png)
