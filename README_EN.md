@@ -25,7 +25,7 @@ Run the `run.py` file and then paste your file download directory, **for example
 
 ```shell
 
-PS E:\python\PY_Bilibili_video_merge> & "D:/Program Files/conda3/envs/bli/python.exe" e:/python/PY_Bilibili_video_merge/run.py
+PS E:\python\PY_Bilibili_video_merge> python run.py
 Please enter your bilibili download directory:     E:\Video Download\bilibili
 (Executing commands.....)
 Execution complete!
